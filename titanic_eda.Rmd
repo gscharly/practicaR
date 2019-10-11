@@ -98,7 +98,7 @@ ggplot(data=totalData[1:filas,],aes(x=Sex,fill=Survived))+geom_bar(position="fil
 **CAMBIO P3:** Repetimos la grafica anterior utilizando la columna Embarked.
 ```{r echo=TRUE, message=FALSE, warning=FALSE}
 ggplot(data = totalData[1:filas,],aes(x=Embarked,fill=Survived))+geom_bar(position="fill")+ylab("Frecuencia")
-
+#Cambio P3
 ```
 
 Obtenemos una matriz de porcentajes de frecuencia.  
